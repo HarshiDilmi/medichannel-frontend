@@ -152,7 +152,7 @@ export default function BookAppointment() {
                   type="date"
                   value={date}
                   onChange={(e) => setDate(e.target.value)}
-                  min={new Date().toLocaleDateString("en-CA")}
+                  
                   className="w-full rounded-lg border p-3"
                   required
                 />
